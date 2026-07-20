@@ -11,7 +11,7 @@ import java.util.Properties;
 /**
  * Manages persistent configuration for WarfaceGPT RE Plugin.
  * Config stored in ~/.warfacegpt-re/config.properties
- * API key stored encrypted with XOR obfuscation (same approach as GhidraGPT).
+ * API key stored encrypted with XOR obfuscation for security at rest.
  */
 public class ConfigurationManager {
 
