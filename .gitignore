@@ -1,0 +1,15 @@
+# WarfaceGPT RE Plugin - Git Ignore
+target/
+*.class
+*.jar
+!dependency-reduced-pom.xml
+*.zip
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+*.log
+.DS_Store
+node_modules/
+dist/
